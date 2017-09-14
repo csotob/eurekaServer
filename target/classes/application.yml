@@ -1,0 +1,11 @@
+# Configurar Eureka Server
+eureka:
+  instance:
+    hostname: localhost
+  client: #No es cliente
+    registerWithEureka: false
+    fetchRegistry: false
+
+# HTTP Tomcat Port
+server:
+  port: 1111
